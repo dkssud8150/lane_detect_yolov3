@@ -2,25 +2,23 @@
 
 1. 딥러닝 차선 인식 논문을 읽고, 그의 방법을 익힌 후 github를 참고
 2. tusimple의 데이터 포맷이 어떤지를 중점적으로 파악
-3. model에 있는 부분만 yolov3로 변환하면 거의 완성
+3. ~model에 있는 부분만 yolov3로 변환하면 거의 완성~
+4. 차선 인식이라 함은 segmentation이어야 함. bounding box가 필요하지가 않고, semgnetation을 통해 해당 grid안에 threshold가 넘냐 안넘냐를 판단해야 한다.
 
-3. ./datasets/tusimple/install_data.sh
-4. convert2yolo.py
-5. train.py
+5. ./datasets/tusimple/install_data.sh
+6. backbone.py, model.py
+7. dataset.py, dataloader.py
+8. get_hyperparam.py, my_transform.py
+9. train.py
   - def argparse
   - def collate_fn
   - def train
-6. utils
+10. utils
   - loss.py
   - optimizer.py
-  - get_hyperparam.py
-  - dataset.py
-  - dataloader.py
-  - my_transform.py
-7. model
-  - yolov3.py
+11. model
   - def initialize_weight
-8. test.py
+12. test.py
 + export.py
 
 ---
