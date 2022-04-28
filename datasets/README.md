@@ -2,16 +2,18 @@
 
 <br>
 
-나의 경우 tusimple 데이터셋을 사용했다.
+나의 경우 TuSimple 데이터셋을 사용했다.
 
 ## TuSimple
 
-[papaerswithcode](https://paperswithcode.com/dataset/tusimple)
+[TuSimple papaerswithcode 사이트](https://paperswithcode.com/dataset/tusimple)
 
-[datasets repo](https://github.com/TuSimple/tusimple-benchmark/issues/3)
+[datasets repository](https://github.com/TuSimple/tusimple-benchmark/issues/3)
 
 <br>
 
-Representation paper and repository
+---
+
+TuSimple을 사용한 논문 중 가장 많은 github star을 받은 논문
 - [paper](https://arxiv.org/abs/1802.05591)
 - [repository](https://github.com/MaybeShewill-CV/lanenet-lane-detection)
