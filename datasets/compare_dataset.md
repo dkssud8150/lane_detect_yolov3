@@ -51,18 +51,6 @@
 
 <br>
 
-[datasets](https://github.com/TuSimple/tusimple-benchmark/issues/3)
-
-[papaerswithcode](https://paperswithcode.com/dataset/tusimple)
-
-<br>
-
-Representation
-- [paper](https://arxiv.org/abs/1802.05591)
-- [repository](https://github.com/MaybeShewill-CV/lanenet-lane-detection)
-
-<br>
-
 <br>
 
 ---
