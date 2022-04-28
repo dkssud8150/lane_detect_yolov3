@@ -7,10 +7,10 @@
 <br>
 
 ```markdown
-lane_detect_yolov3
+lane_segment
     ⊢ config
         ⊢ requirements.txt
-        ∟ yolov3.cfg
+        ∟ tusimple.py
     ⊢ datasets
         ⊢ BDD100K
         ∟ KITTI
@@ -30,12 +30,12 @@ lane_detect_yolov3
             ∟ lab_kitti.zip
     ⊢ model
         ⊢ __init__.py
-        ∟ yolov3.py
+        ⊢ backbone.py
+        ∟ models.py
     ⊢ utils
         ⊢ __init__.py
         ⊢ activations.py
         ⊢ augmentations.py
-        ⊢ convert2yolo.py
         ⊢ install_dataset.py
         ⊢ loss.py
         ⊢ tools.py
