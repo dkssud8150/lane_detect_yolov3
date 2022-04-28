@@ -1,4 +1,4 @@
-# Lane Detection using Deep Learning (YoloV3)
+# Lane Detection using Deep Learning
 
 > member : Jae Ho Yoon
 >
