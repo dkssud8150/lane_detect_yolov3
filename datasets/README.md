@@ -61,6 +61,8 @@
 
 [공식 사이트](https://paperswithcode.com/dataset/tusimple)
 
+[swithcode](https://paperswithcode.com/search?q_meta=&q_type=&q=tusimple)
+
 <br>
 
 ---
@@ -153,6 +155,8 @@
 <br>
 
 [공식 사이트](https://bair.berkeley.edu/blog/2018/05/30/bdd/)
+
+[swithcode](https://paperswithcode.com/search?q_meta=&q_type=&q=bdd100k)
 
 <img src="../imgs/datasets/bdd100kdataset.png">
 
