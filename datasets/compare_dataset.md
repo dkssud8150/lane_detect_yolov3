@@ -1,3 +1,5 @@
+<img src="../imgs/datasets/dataset.png" width="70%">
+
 ## 데이터셋 비교
 
 ### 1. tsSimple
