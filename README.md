@@ -94,9 +94,11 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
     1. BDD100K, KITTI, tuSimple, CULane
     2. 사용한 데이터셋 포맷과 yolov3 포맷을 맞춘다. 
         1. convert2yolo.py
+
         ROI를 따서 넣을 건데, bbox point들을 이용해서 dacon keypoint 대회에서 사용했던 방식으로 min,max 값을 사용해서 잘라낼 것
 
         2. img_crop.py
+
         [Key Point를 이용하여 손 동작 이미지만 크롭](https://dacon.io/competitions/official/235805/codeshare/3362?page=2&dtype=recent)
 
 3. yolov3 딥러닝 모델을 활용하여 차선 위치 화면에 표시
@@ -162,10 +164,13 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
 
 <details open> 
     <summary> 보고서 포맷 </summary> 
-        1.제목 : 프로젝트 이름
-        
+
+        1.제목 : 프로젝트 이름    
+
         2.기간 : 기간 +- 몇 주(gantt chart)
+        
         3.인원 : 1,2,3,4명
+        
         4.엔지니어링 요구사항 (숫자로 표현할 수 있거나, 성공과 실패를 명확하게 나올 수 있도록 아주 자세하게 표현)
         특정 프로그램을 만든다.
         데이터셋을 어떻게 구축할지
@@ -176,6 +181,7 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
         어떻게 연결하고, 모르는 부분은 어떻게 찾아볼지
         태스크 전체 정리
         어떤 태스크들을 사용할지
+        
         5.산출물
         github에 repo를 만들어 가이드를 작성한다.
         버전관리를 통해 다양한 기록을 남긴다.
