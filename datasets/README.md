@@ -59,9 +59,11 @@
 
 <br>
 
-[공식 사이트](https://paperswithcode.com/dataset/tusimple)
+[datasets](https://github.com/TuSimple/tusimple-benchmark/issues/3)
 
-[swithcode](https://paperswithcode.com/search?q_meta=&q_type=&q=tusimple)
+[papaerswithcode](https://paperswithcode.com/dataset/tusimple)
+
+
 
 <br>
 
