@@ -220,7 +220,8 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
         버전관리를 통해 다양한 기록을 남긴다.
 
 </details>
-    
+
+참고 영상
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=lnFbAG3GBN4" 
    target="_blank"><img src="http://img.youtube.com/vi/lnFbAG3GBN4/0.jpg" 
                         alt="Demo" width="240" height="180" border="10" /></a>
