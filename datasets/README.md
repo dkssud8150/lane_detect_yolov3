@@ -14,3 +14,13 @@ in my case, i use the TuSimple dataset, and pytorch. so i refer to the paper `Ul
 sh install_data.sh
 ```
 
+in this file, there are the installing codes in the TuSimple [repo](https://github.com/TuSimple/tusimple-benchmark/issues/3). you can download the train_set.zip, test_set.zip
+
+<br>
+
+in TuSimple, the segmentation annotations is not provided, so if you need to generate segmentation, you have to execute this code
+
+```bash
+python scripts/convert_tusimple.py --root $TUSIMPLEROOT
+# this will generate segmentations and two list files: train_gt.txt and test.txt
+```
