@@ -107,7 +107,7 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
 4. hough transform+ransac / sliding window
     1. 픽셀 개수를 plot하는 것도 중요하지만, 차선의 위치 자체를 plot하면 더 보기 편할지도?
     
-    <img src="/imgs/lane_plot.png">
+    <img src="/assets/lane_plot.png">
     
 5. 인식된 차선의 위치를 기반으로 핸들링 조작
     1. 차선 중앙도 화면에 표시
@@ -165,7 +165,7 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
     2. 아쉬웠던 점
     3. 완성, 미완성 구분
 
-![](2022-04-28-18-24-15.png)
+<img src="./assets/gantt_chart.png">
 
 <details open> 
     <summary> 보고서 포맷 </summary> 
