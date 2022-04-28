@@ -2,7 +2,7 @@
 
 <br>
 
-나의 경우 TuSimple 데이터셋을 사용했고, 
+나의 경우 TuSimple 데이터셋을 사용했고, `Towards End-to-End Lane Detection: an Instance Segmentation Approach` 논문을 참고하여 제작했다.
 
 ## TuSimple
 
