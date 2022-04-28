@@ -4,7 +4,7 @@
 
 <br>
 
-나의 경우 
+나의 경우 tusimple 또는 BDD100K
 
 
 
@@ -24,10 +24,24 @@
 - 차선 분류
     - default는 유무 판별
     - 8가지 분류 데이터셋 활용하려면 분류 코드를 실행
+        - Sigle Dashed
+        - Double Dashed
+        - Botts' Dots
+        - Double Yellow Continuous
+        - Single White Continuous
+        - Single Yellow Continuous
+        - Double White Continuous
+        - Unknown (차선 없을때)
+
+        <img src="../imgs/datasets/tusimplelabel.png">
+
+        [분류 코드 github](https://github.com/fabvio/TuSimple-lane-classes)
+
 - 특이 사항
     - 모든 데이터에 대해 19장의 연속된 이전 프레임 데이터가 존재, 즉 20장의 연속된 차선 이미지, 마지막장에만 차선 label되어 있음
 
 장점
+
 <img src="../imgs/datasets/tusimple1.png">
 
 - 다양한 도로 환경의 데이터 존재
@@ -42,6 +56,8 @@
 
 - label이 json형태여서 픽셀 기반으로 segmentation이 되지 않음, 즉 차선 원소 개수 만큼의 차선 데이터만 존재
 - h_sample에 대해 차선이 존재하면 lanes에 기록되는데, 즉 lanes의 개수만큼의 차선데이터가 기록되어 해당 h_sample 위치에 차선이 존재하면 차선의 width좌표가 들어가고, 없으면 -2가 들어간다.
+
+<br>
 
 [공식 사이트](https://paperswithcode.com/dataset/tusimple)
 
