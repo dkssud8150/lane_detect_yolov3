@@ -2,27 +2,15 @@
 
 <br>
 
-나의 경우 TuSimple 데이터셋을 사용했고, pytorch를 사용하므로 `Ultra Fast Structure-aware Deep Lane Detection` 논문을 참고하여 제작했다.
+나의 경우 TuSimple 데이터셋을 사용했고, pytorch를 사용하므로 `Ultra Fast Structure-aware Deep Lane Detection` 논문을 참고하여 제작했다. 차선 인식 데이터셋에 대한 자세한 내용은 [이 파일](https://github.com/dkssud8150/lane_detect_yolov3/blob/master/datasets/compare_dataset.md)을 참고하길 바란다.
 
-## TuSimple
-
-[TuSimple papaerswithcode 사이트](https://paperswithcode.com/dataset/tusimple)
-
-[datasets repository](https://github.com/TuSimple/tusimple-benchmark/issues/3)
+in my case, i use the TuSimple dataset, and pytorch. so i refer to the paper `Ultra Fast Structure-aware Deep Lane Detection`. if you need to more details lane detection dataset or comparing many lane detection dataset, you have to see [this file](https://github.com/dkssud8150/lane_detect_yolov3/blob/master/datasets/compare_dataset.md).
 
 <br>
 
----
+## 1. dataset download
 
-TuSimple을 사용한 논문 중 가장 많은 github star을 받은 논문 TOP 2
-- 🥇[Towards End-to-End Lane Detection: an Instance Segmentation Approach](https://arxiv.org/abs/1802.05591)   | (15 Feb 2018)
-  - ⭐star : 1,797
-  - 🚀[repository](https://github.com/MaybeShewill-CV/lanenet-lane-detection)
-  - Framework : Tensorflow
+```bash
+sh install_data.sh
+```
 
-<br>
-
-- 🥈[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757v4)   | (24 Apr 2020)
-  - ⭐star : 1,193
-  - 🚀[repository](https://github.com/cfzd/Ultra-Fast-Lane-Detection)
-  - Framework : Pytorch
