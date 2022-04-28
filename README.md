@@ -1,8 +1,8 @@
 # Lane Detection using Deep Learning (YoloV3)
 
 > member : Jae Ho Yoon
-term : 2022.04.27 ~ 2022.05.11 ( about 14 week )
-> 
+>
+>term : 2022.04.27 ~ 2022.05.11 ( about 14 week ) 
 
 <br>
 
@@ -104,10 +104,15 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
 3. yolov3 딥러닝 모델을 활용하여 차선 위치 화면에 표시
     1. 차선 인식 bounding box를 그려본다.
     2. 차선 인식된 위치를 기반으로 polylines 그려서 표기해본다.
-4. 인식된 차선의 위치를 기반으로 핸들링 조작
+4. hough transform+ransac / sliding window
+    1. 픽셀 개수를 plot하는 것도 중요하지만, 차선의 위치 자체를 plot하면 더 보기 편할지도?
+    
+    <img src="/imgs/lane_plot.png">
+    
+5. 인식된 차선의 위치를 기반으로 핸들링 조작
     1. 차선 중앙도 화면에 표시
     2. 차선의 중앙과 화면의 중앙의 차 및 핸들링 값 csv로 저장
-5. 이미지가 아닌 video를 사용해서 cv2로 해보기
+6. 이미지가 아닌 video를 사용해서 cv2로 해보기
 
     <details open>
         <summary> 이게 안되면 그냥 video를 frame마다 저장해서 train </summary>
