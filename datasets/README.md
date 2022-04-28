@@ -1,7 +1,7 @@
 # 차선 인식 데이터셋
 
 <img src="../imgs/datasets/dataset.png">
-
+<img src="../imgs/datasets/123.png">
 <br>
 
 나의 경우 tusimple 또는 BDD100K
@@ -84,9 +84,13 @@
 장점
 - 압도적으로 큰 용량의 데이터셋
 
+<br>
+
 단점
 - 픽셀 단위로 분할되어 있지 않고, json도, csv도 아닌 숫자의 나열로 labeling 되어 있다. 숫자를 보면 소수로 되어있는데, 이는 차선 위치를 직접 추출한게 아니라 차선을 그린 후 3차 스플라인(cubic spline) 보간으로 얻은 함수를 제공하기 때문이다.
 - 대신 이 텍스트파일을 픽셀 단위 레이블로 변환해주는 코드가 공식 사이트에 있고, 평가 과정을 도와주는 코드가 공식적으로 제공된다.
+
+<br>
 
 [공식 사이트](https://xingangpan.github.io/projects/CULane.html)
 
@@ -188,15 +192,6 @@ KITTI 데이터셋은 객체 인식, 추적, 깊이 추정 등 매우 많이 사
 <br>
 
 [공식 사이트](http://www.cvlibs.net/datasets/kitti/eval_road.php)
-
-<br>
-
---- 
-
-### 5. Caltech
-
-
-
 
 <br>
 
