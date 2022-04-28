@@ -220,3 +220,6 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
         버전관리를 통해 다양한 기록을 남긴다.
 
 </details>
+
+    
+<!-- https://github.com/sejongresearch/SituationClassifier/issues/3 -->
