@@ -51,6 +51,29 @@
 
 <br>
 
+[TuSimple papaerswithcode 사이트](https://paperswithcode.com/dataset/tusimple)
+
+[datasets repository](https://github.com/TuSimple/tusimple-benchmark/issues/3)
+
+<br>
+
+---
+
+TuSimple을 사용한 논문 중 가장 많은 github star을 받은 논문 TOP 2
+- 🥇[Towards End-to-End Lane Detection: an Instance Segmentation Approach](https://arxiv.org/abs/1802.05591)   | (15 Feb 2018)
+  - ⭐star : 1,797
+  - 🚀[repository](https://github.com/MaybeShewill-CV/lanenet-lane-detection)
+  - Framework : Tensorflow
+
+<br>
+
+- 🥈[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757v4)   | (24 Apr 2020)
+  - ⭐star : 1,193
+  - 🚀[repository](https://github.com/cfzd/Ultra-Fast-Lane-Detection)
+  - Framework : Pytorch
+
+<br>
+
 <br>
 
 ---
