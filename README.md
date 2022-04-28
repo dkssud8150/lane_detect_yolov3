@@ -46,8 +46,11 @@ lane_detect_yolov3
         ⊢ weights
         ∟ tensorboard
     ⊢ env
-    ∟ imgs
+    ⊢ imgs
         ∟ gantt_chart.png
+    ⊢ train.py
+    ⊢ test.py
+    ∟ val.py
 ```
 
 <br>
