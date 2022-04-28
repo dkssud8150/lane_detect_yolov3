@@ -66,7 +66,7 @@
 <br>
 
 Representation
-- [paper](https://arxiv.org/pdf/1802.05591v1.pdf)
+- [paper](https://arxiv.org/abs/1802.05591)
 - [repository](https://github.com/MaybeShewill-CV/lanenet-lane-detection)
 
 <br>
