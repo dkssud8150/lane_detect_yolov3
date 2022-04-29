@@ -1,4 +1,4 @@
-# Lane Detection using Deep Learning (YoloV3)
+# Lane Detection using Deep Learning
 
 > member : Jae Ho Yoon
 >
@@ -7,10 +7,10 @@
 <br>
 
 ```markdown
-lane_detect_yolov3
+lane_segment
     ⊢ config
         ⊢ requirements.txt
-        ∟ yolov3.cfg
+        ∟ tusimple.py
     ⊢ datasets
         ⊢ BDD100K
         ∟ KITTI
@@ -30,12 +30,12 @@ lane_detect_yolov3
             ∟ lab_kitti.zip
     ⊢ model
         ⊢ __init__.py
-        ∟ yolov3.py
+        ⊢ backbone.py
+        ∟ models.py
     ⊢ utils
         ⊢ __init__.py
         ⊢ activations.py
         ⊢ augmentations.py
-        ⊢ convert2yolo.py
         ⊢ install_dataset.py
         ⊢ loss.py
         ⊢ tools.py
@@ -220,3 +220,15 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
         버전관리를 통해 다양한 기록을 남긴다.
 
 </details>
+
+<br>
+    
+참고 영상
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=lnFbAG3GBN4" 
+   target="_blank"><img src="http://img.youtube.com/vi/lnFbAG3GBN4/0.jpg" 
+                        alt="Demo" width="240" height="180" border="10" /></a>
+    
+
+    
+<!-- https://github.com/sejongresearch/SituationClassifier/issues/3 -->
