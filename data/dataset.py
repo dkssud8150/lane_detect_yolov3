@@ -6,12 +6,10 @@ import torch
 from torch.utils.data import Dataset
 
 # LaneClsDataset(data_root,
-                # os.path.join(data_root, 'train_gt.txt'),
-                # img_transform=img_transform, target_transform=target_transform,
-                # simu_transform = simu_transform,
+                # img_transform=img_transform, target_transform=target_transform, simu_transform = simu_transform, segment_transform=segment_transform,
                 # griding_num=griding_num, 
                 # row_anchor = tusimple_row_anchor,
-                # segment_transform=segment_transform,use_aux=use_aux, num_lanes = num_lanes)
+                # use_aux=use_aux, num_lanes = num_lanes)
 
 class LaneClsDataset(Dataset):
     def __init__(self, base_dir, cfg,
@@ -56,8 +54,11 @@ class LaneClsDataset(Dataset):
 
         if h != 288: # row_anchor는 288 기준인데, label이 288이 아니라면, label 크기에 맞게 index를 얻어야 하기에
             scale_f = lambda x : int((x * 1.0/288) * h)
-            scale_row_anchor = list(map(scale_f,self.row_anchor))
+            scale_row_anchor = list(map(scale_f,self.row_anchor)) # len = 56 , [62, 66, 70, 73, 77...]
         
         all_idx = np.zeros((self.num_lanes, len(scale_row_anchor), 2)) # 4 x 56 x 2
-        for idx, anchor in enumerate(scale_row_anchor):
-            
+        for idx, row in enumerate(scale_row_anchor):
+            label_row = label[int(row)] # row anchor에 해당하는 row를 추출
+            for lane_idx in range(1, self.num_lanes + 1):
+                
+
