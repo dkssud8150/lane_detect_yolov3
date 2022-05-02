@@ -1,4 +1,4 @@
-datasets/tusimple/train
-datasets/tusimple/test
+datasets/tusimple/train/clips
+datasets/tusimple/test/clips
 
 *.pdf
