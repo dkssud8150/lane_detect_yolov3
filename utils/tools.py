@@ -22,7 +22,7 @@ def get_args():
     parser.add_argument('--warmup_iters', default = None, type = int)
     parser.add_argument('--backbone', default = None, type = str)
     parser.add_argument('--griding_num', default = None, type = int)
-    parser.add_argument('--use_aux', default = None, type = str2bool)
+    parser.add_argument('--use_aux', default = None, type = bool)
     parser.add_argument('--sim_loss_w', default = None, type = float)
     parser.add_argument('--shp_loss_w', default = None, type = float)
     parser.add_argument('--note', default = None, type = str)
@@ -65,3 +65,8 @@ def get_param(filename):
                 
     return params
 
+
+
+if __name__ == "__main__":
+    params = get_param("./config/tusimple.cfg")
+    print(params)
