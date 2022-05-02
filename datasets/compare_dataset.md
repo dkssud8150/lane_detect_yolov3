@@ -1,6 +1,6 @@
 # 데이터셋 비교
 
-<img src="../imgs/datasets/dataset.png" width="70%">
+<img src="../assets/datasets/dataset.png" width="70%">
 
 ## 1. tsSimple
 
@@ -25,7 +25,7 @@
         - Double White Continuous
         - Unknown (차선 없을때)
 
-        <img src="../imgs/datasets/tusimplelabel.png">
+        <img src="../assets/datasets/tusimplelabel.png">
 
         [분류 코드 github](https://github.com/fabvio/TuSimple-lane-classes)
 
@@ -34,7 +34,7 @@
 
 장점
 
-<img src="../imgs/datasets/tusimple1.png">
+<img src="../assets/datasets/tusimple1.png">
 
 - 다양한 도로 환경의 데이터 존재
     - 일반 도로환경, 흐릿한 차선, 차선없이 요철로 이루어진 구간, 날씨에 관해서는 없음
@@ -44,7 +44,7 @@
 <br>
 
 단점
-<img src="../imgs/datasets/tusimple2.png">
+<img src="../assets/datasets/tusimple2.png">
 
 - label이 json형태여서 픽셀 기반으로 segmentation이 되지 않음, 즉 차선 원소 개수 만큼의 차선 데이터만 존재
 - h_sample에 대해 차선이 존재하면 lanes에 기록되는데, 즉 lanes의 개수만큼의 차선데이터가 기록되어 해당 h_sample 위치에 차선이 존재하면 차선의 width좌표가 들어가고, 없으면 -2가 들어간다.
@@ -113,7 +113,7 @@ TuSimple을 사용한 논문 중 가장 많은 github star을 받은 논문 TOP 
 
 ## 3. BDD100K
 
-<img src="../imgs/datasets/bdd100k.png">
+<img src="../assets/datasets/bdd100k.png">
 
 버클리 인공지능 연구 실험실에서 공개한 오픈소스로, 120,000,000개의 엄청난 이미지 데이터를 가진 데이터셋이다. 이미지 뿐만 아니라 GPS, IMU, timestamp까지 포함되어 있어 다양한 용도로 활용된다. 이 데이터셋은 차선인식을 위해 만들어진 데이터셋이 아니라 **도로 주행 상황에서 사용되는 모든 네트워크를 타겟으로 제작되었기 때문에 차선 뿐만 아니라 차량, 사람 등도 라벨링되어 있다.**
 
@@ -130,7 +130,7 @@ TuSimple을 사용한 논문 중 가장 많은 github star을 받은 논문 TOP 
 
 다른 데이터셋에 비해 차선 정보가 조금 복잡하게 되어 있다.
 
-<img src="../imgs/datasets/bdd100klabel.png">
+<img src="../assets/datasets/bdd100klabel.png">
 
 - lanedirection : 차선의 방향 (수직 / 수평)
     - 0 : parallel
@@ -159,7 +159,7 @@ TuSimple을 사용한 논문 중 가장 많은 github star을 받은 논문 TOP 
 <br>
 
 단점
-<img src="../imgs/datasets/bdd100klabel2.png">
+<img src="../assets/datasets/bdd100klabel2.png">
 
 - poly2d 즉 두 점의 위치를 제공하기 때문에 직관적으로 파악하기 힘들다.
 
@@ -169,7 +169,7 @@ TuSimple을 사용한 논문 중 가장 많은 github star을 받은 논문 TOP 
 
 [swithcode](https://paperswithcode.com/search?q_meta=&q_type=&q=bdd100k)
 
-<img src="../imgs/datasets/bdd100kdataset.png">
+<img src="../assets/datasets/bdd100kdataset.png">
 
 매우 다양한 용도로 구성되어 있기 때문에, 차선 인식을 위해 lane marking 을 클릭한다.
 
@@ -197,7 +197,7 @@ KITTI 데이터셋은 객체 인식, 추적, 깊이 추정 등 매우 많이 사
 - 픽셀 단위로 labeling되어 있음
 - 라이다 데이터도 함께 제공
 
-<img src="../imgs/datasets/kitti.png">
+<img src="../assets/datasets/kitti.png">
 
 <br>
 
