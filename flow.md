@@ -16,9 +16,7 @@
 10. utils
   - loss.py
   - optimizer.py
-11. model
-  - def initialize_weight
-12. test.py
+11. test.py
 + export.py
 
 ---
