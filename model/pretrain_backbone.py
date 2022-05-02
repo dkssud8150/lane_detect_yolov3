@@ -22,16 +22,6 @@ class resnet(torch.nn.Module):
             model = torchvision.models.resnet50(pretrained=pretrained)
         elif layers == '101':
             model = torchvision.models.resnet101(pretrained=pretrained)
-        elif layers == '152':
-            model = torchvision.models.resnet152(pretrained=pretrained)
-        elif layers == '50next':
-            model = torchvision.models.resnext50_32x4d(pretrained=pretrained)
-        elif layers == '101next':
-            model = torchvision.models.resnext101_32x8d(pretrained=pretrained)
-        elif layers == '50wide':
-            model = torchvision.models.wide_resnet50_2(pretrained=pretrained)
-        elif layers == '101wide':
-            model = torchvision.models.wide_resnet101_2(pretrained=pretrained)
         else:
             raise NotImplementedError
         
